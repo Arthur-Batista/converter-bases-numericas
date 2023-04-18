@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Bases</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Conversor de Bases</h1>
+    <form>
+        <label for="decimal">Decimal:</label>
+        <input type="text" id="decimal" placeholder="Digite um valor decimal">
+
+        <label for="binario">Binário:</label>
+        <input type="text" id="binario" placeholder="Digite um valor binário">
+
+        <label for="octal">Octal:</label>
+        <input type="text" id="octal" placeholder="Digite um valor octal">
+
+        <label for="hexadecimal">Hexadecimal:</label>
+        <input type="text" id="hexadecimal" placeholder="Digite um valor hexadecimal">
+
+        <input type="button" value="Converter" onclick="converterBases()">
+
+        <div id="resultado"></div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
